@@ -1,15 +1,28 @@
-name: Scrape Wait Times from Google Sheet
+name: Scrape and ETL Wait Times
 
 on:
   schedule:
-    - cron: '0 * * * *'  # 毎時実行
+    - cron: '0 23 * * *'  # JST 08:00
+    - cron: '0 0 * * *'   # JST 09:00
+    - cron: '0 1 * * *'   # JST 10:00
+    - cron: '0 2 * * *'   # JST 11:00
+    - cron: '0 3 * * *'   # JST 12:00
+    - cron: '0 4 * * *'   # JST 13:00
+    - cron: '0 5 * * *'   # JST 14:00
+    - cron: '0 6 * * *'   # JST 15:00
+    - cron: '0 7 * * *'   # JST 16:00
+    - cron: '0 8 * * *'   # JST 17:00
+    - cron: '0 9 * * *'   # JST 18:00
+    - cron: '0 10 * * *'  # JST 19:00
+    - cron: '0 11 * * *'  # JST 20:00
+    - cron: '0 12 * * *'  # JST 21:00
   workflow_dispatch:
 
 permissions:
   contents: write
 
 jobs:
-  scrape:
+  scrape-and-etl:
     runs-on: ubuntu-latest
 
     steps:
@@ -22,15 +35,20 @@ jobs:
           python-version: '3.11'
 
       - name: Install dependencies
-        run: pip install requests
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
 
       - name: Run scraper
         run: python scripts/fetch_data.py
 
-      - name: Commit & push CSV file
+      - name: Run ETL pipeline
+        run: python etl/etl.py
+
+      - name: Commit & push CSV and DB files
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add wait_times.csv
-          git commit -m "Update wait times data" || echo "No changes to commit"
+          git add wait_times.csv data/db/wait_times.db
+          git commit -m "Update wait times data and database" || echo "No changes to commit"
           git push
