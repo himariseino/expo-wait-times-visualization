@@ -51,9 +51,14 @@ def parse_wait_time(raw: str) -> int | None:
 def enrich_time_features(df: pd.DataFrame) -> pd.DataFrame:
     """曜日・時間帯を追加"""
     df["timestamp_dt"] = pd.to_datetime(df["timestamp"])
-    df["weekday"] = df["timestamp_dt"].dt.day_name(locale="ja_JP")
+    weekday_map = {
+        "Monday": "月曜日", "Tuesday": "火曜日", "Wednesday": "水曜日",
+        "Thursday": "木曜日", "Friday": "金曜日", "Saturday": "土曜日", "Sunday": "日曜日"
+    }
+    df["weekday_en"] = df["timestamp_dt"].dt.day_name()
+    df["weekday"] = df["weekday_en"].map(weekday_map)
     df["hour_range"] = df["timestamp_dt"].dt.strftime("%H:00")
-    df.drop(columns=["timestamp_dt"], inplace=True)
+    df.drop(columns=["timestamp_dt", "weekday_en"], inplace=True)
     return df
 
 def join_pavilion_info(df: pd.DataFrame, master_df: pd.DataFrame) -> pd.DataFrame:
