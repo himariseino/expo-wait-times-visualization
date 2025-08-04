@@ -1,0 +1,4 @@
+RAW_CSV_PATH: data/wait_times.csv
+MASTER_CSV_PATH: data/master/pavilion_master.csv
+DB_PATH: data/db/wait_times.db
+TABLE_NAME: wait_times
