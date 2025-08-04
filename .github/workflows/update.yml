@@ -38,7 +38,7 @@ jobs:
         run: pip install uv
 
       - name: Install dependencies using uv
-        run: uv pip install --system
+        run: uv pip install --system --project .
 
       - name: Run scraper
         run: uv run scripts/fetch_data.py
