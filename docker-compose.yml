@@ -1,0 +1,15 @@
+version: "3.9"
+
+services:
+  app:
+    build: .
+    volumes:
+      - .:/app:cached
+    ports:
+      - "8050:8050"
+    environment:
+      - PYTHONUNBUFFERED=1
+    tty: true     # シェルを有効にする
+    stdin_open: true
+    # command: python -m dash_app.app
+
