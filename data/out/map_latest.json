@@ -1,0 +1,1132 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "pavilion_id": "pav_023ed86d",
+        "pavilion_name": "三菱未来館",
+        "wait_min": 30,
+        "staleness_min": 60,
+        "data_time_jst": "2025-08-18T14:23:34+0900"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.46,
+          34.73
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "pavilion_id": "pav_045a4660",
+        "pavilion_name": "ベルギー",
+        "wait_min": 60,
+        "staleness_min": 30,
+        "data_time_jst": "2025-08-18T14:23:34+0900"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.43,
+          34.715
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "pavilion_id": "pav_0c9e1604",
+        "pavilion_name": "夜の地球",
+        "wait_min": 10,
+        "staleness_min": 23,
+        "data_time_jst": "2025-08-18T14:23:34+0900"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.41,
+          34.705
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "pavilion_id": "pav_0d984309",
+        "pavilion_name": "カンボジア",
+        "wait_min": 10,
+        "staleness_min": 60,
+        "data_time_jst": "2025-08-18T14:23:34+0900"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.43,
+          34.715
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "pavilion_id": "pav_0e6c54d7",
+        "pavilion_name": "ペルー",
+        "wait_min": 30,
+        "staleness_min": 60,
+        "data_time_jst": "2025-08-18T14:23:34+0900"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.4,
+          34.7
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "pavilion_id": "pav_0edcdfa0",
+        "pavilion_name": "インドネシア",
+        "wait_min": 30,
+        "staleness_min": 33,
+        "data_time_jst": "2025-08-18T14:23:34+0900"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.41,
+          34.705
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "pavilion_id": "pav_101806f5",
+        "pavilion_name": "中国",
+        "wait_min": 30,
+        "staleness_min": 7,
+        "data_time_jst": "2025-08-18T14:23:34+0900"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.4,
+          34.7
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "pavilion_id": "pav_13d9fdc6",
+        "pavilion_name": "ベトナム",
+        "wait_min": 20,
+        "staleness_min": 60,
+        "data_time_jst": "2025-08-18T14:23:34+0900"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.4,
+          34.7
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "pavilion_id": "pav_143ed953",
+        "pavilion_name": "ヨルダン",
+        "wait_min": 30,
+        "staleness_min": 60,
+        "data_time_jst": "2025-08-18T14:23:34+0900"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.4,
+          34.7
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "pavilion_id": "pav_18e48998",
+        "pavilion_name": "バーレーン",
+        "wait_min": 35,
+        "staleness_min": 54,
+        "data_time_jst": "2025-08-18T14:23:34+0900"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.4,
+          34.7
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "pavilion_id": "pav_1f55e646",
+        "pavilion_name": "フィリピン",
+        "wait_min": 20,
+        "staleness_min": 8,
+        "data_time_jst": "2025-08-18T14:23:34+0900"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.4,
+          34.7
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "pavilion_id": "pav_2603d061",
+        "pavilion_name": "ポーランド",
+        "wait_min": 50,
+        "staleness_min": 54,
+        "data_time_jst": "2025-08-18T14:23:34+0900"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.43,
+          34.715
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "pavilion_id": "pav_363c9b1c",
+        "pavilion_name": "ブラジル",
+        "wait_min": 50,
+        "staleness_min": 60,
+        "data_time_jst": "2025-08-18T14:23:34+0900"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.4,
+          34.7
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "pavilion_id": "pav_38be0e52",
+        "pavilion_name": "チュニジア",
+        "wait_min": 10,
+        "staleness_min": 60,
+        "data_time_jst": "2025-08-18T14:23:34+0900"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.43,
+          34.715
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "pavilion_id": "pav_39b81a00",
+        "pavilion_name": "大韓民国（韓国）",
+        "wait_min": 80,
+        "staleness_min": 54,
+        "data_time_jst": "2025-08-18T14:23:34+0900"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.41,
+          34.705
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "pavilion_id": "pav_3d895891",
+        "pavilion_name": "北欧館",
+        "wait_min": 30,
+        "staleness_min": 5,
+        "data_time_jst": "2025-08-18T14:23:34+0900"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.4,
+          34.7
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "pavilion_id": "pav_41674108",
+        "pavilion_name": "トルクメニスタン",
+        "wait_min": 20,
+        "staleness_min": 45,
+        "data_time_jst": "2025-08-18T14:23:34+0900"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.4,
+          34.7
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "pavilion_id": "pav_42826e19",
+        "pavilion_name": "マルタ",
+        "wait_min": 30,
+        "staleness_min": 40,
+        "data_time_jst": "2025-08-18T14:23:34+0900"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.4,
+          34.7
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "pavilion_id": "pav_42d9c810",
+        "pavilion_name": "ポルトガル",
+        "wait_min": 20,
+        "staleness_min": 60,
+        "data_time_jst": "2025-08-18T14:23:34+0900"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.4,
+          34.7
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "pavilion_id": "pav_440f5750",
+        "pavilion_name": "オマーン",
+        "wait_min": 40,
+        "staleness_min": 60,
+        "data_time_jst": "2025-08-18T14:23:34+0900"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.43,
+          34.715
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "pavilion_id": "pav_4acf821a",
+        "pavilion_name": "国際赤十字・赤新月運動館",
+        "wait_min": 30,
+        "staleness_min": 60,
+        "data_time_jst": "2025-08-18T14:23:34+0900"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.4,
+          34.7
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "pavilion_id": "pav_4d8dd152",
+        "pavilion_name": "アルジェリア",
+        "wait_min": 10,
+        "staleness_min": 55,
+        "data_time_jst": "2025-08-18T14:23:34+0900"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.43,
+          34.715
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "pavilion_id": "pav_532a1935",
+        "pavilion_name": "アンゴラ",
+        "wait_min": 60,
+        "staleness_min": 39,
+        "data_time_jst": "2025-08-18T14:23:34+0900"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.43,
+          34.715
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "pavilion_id": "pav_55b4e062",
+        "pavilion_name": "フランス",
+        "wait_min": 30,
+        "staleness_min": 16,
+        "data_time_jst": "2025-08-18T14:23:34+0900"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.4,
+          34.7
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "pavilion_id": "pav_5e27446d",
+        "pavilion_name": "チェコ",
+        "wait_min": 40,
+        "staleness_min": 60,
+        "data_time_jst": "2025-08-18T14:23:34+0900"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.4,
+          34.7
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "pavilion_id": "pav_63f16779",
+        "pavilion_name": "国連",
+        "wait_min": 30,
+        "staleness_min": 48,
+        "data_time_jst": "2025-08-18T14:23:34+0900"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.4,
+          34.7
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "pavilion_id": "pav_67440273",
+        "pavilion_name": "ロボット＆モビリティステーション",
+        "wait_min": 40,
+        "staleness_min": 60,
+        "data_time_jst": "2025-08-18T14:23:34+0900"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.4,
+          34.7
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "pavilion_id": "pav_69232202",
+        "pavilion_name": "未来の都市",
+        "wait_min": 30,
+        "staleness_min": 0,
+        "data_time_jst": "2025-08-18T14:23:34+0900"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.44,
+          34.72
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "pavilion_id": "pav_69ce08a3",
+        "pavilion_name": "オーストリア",
+        "wait_min": 30,
+        "staleness_min": 60,
+        "data_time_jst": "2025-08-18T14:23:34+0900"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.4,
+          34.7
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "pavilion_id": "pav_6c29d6fd",
+        "pavilion_name": "スペイン",
+        "wait_min": 40,
+        "staleness_min": 33,
+        "data_time_jst": "2025-08-18T14:23:34+0900"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.41,
+          34.705
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "pavilion_id": "pav_6dd69049",
+        "pavilion_name": "大阪ヘルスケアパビリオン",
+        "wait_min": 30,
+        "staleness_min": 60,
+        "data_time_jst": "2025-08-18T14:23:34+0900"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.46,
+          34.73
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "pavilion_id": "pav_6e98ee8f",
+        "pavilion_name": "シンガポール",
+        "wait_min": 40,
+        "staleness_min": 12,
+        "data_time_jst": "2025-08-18T14:23:34+0900"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.43,
+          34.715
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "pavilion_id": "pav_707019e6",
+        "pavilion_name": "ルクセンブルク",
+        "wait_min": 100,
+        "staleness_min": 60,
+        "data_time_jst": "2025-08-18T14:23:34+0900"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.41,
+          34.705
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "pavilion_id": "pav_73266ed7",
+        "pavilion_name": "カナダ",
+        "wait_min": 150,
+        "staleness_min": 60,
+        "data_time_jst": "2025-08-18T14:23:34+0900"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.4,
+          34.7
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "pavilion_id": "pav_78905b6f",
+        "pavilion_name": "スイス",
+        "wait_min": 60,
+        "staleness_min": 60,
+        "data_time_jst": "2025-08-18T14:23:34+0900"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.4,
+          34.7
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "pavilion_id": "pav_7ac83004",
+        "pavilion_name": "ハンガリー",
+        "wait_min": 80,
+        "staleness_min": 60,
+        "data_time_jst": "2025-08-18T14:23:34+0900"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.43,
+          34.715
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "pavilion_id": "pav_7dc33857",
+        "pavilion_name": "バルト",
+        "wait_min": 10,
+        "staleness_min": 12,
+        "data_time_jst": "2025-08-18T14:23:34+0900"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.43,
+          34.715
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "pavilion_id": "pav_7e5879a7",
+        "pavilion_name": "アイルランド",
+        "wait_min": 60,
+        "staleness_min": 60,
+        "data_time_jst": "2025-08-18T14:23:34+0900"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.4,
+          34.7
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "pavilion_id": "pav_8236db7b",
+        "pavilion_name": "英国（イギリス）",
+        "wait_min": 180,
+        "staleness_min": 60,
+        "data_time_jst": "2025-08-18T14:23:34+0900"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.43,
+          34.715
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "pavilion_id": "pav_8767fafd",
+        "pavilion_name": "アメリカ（米国）",
+        "wait_min": 100,
+        "staleness_min": 15,
+        "data_time_jst": "2025-08-18T14:23:34+0900"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.4,
+          34.7
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "pavilion_id": "pav_8815e589",
+        "pavilion_name": "アゼルバイジャン",
+        "wait_min": 40,
+        "staleness_min": 25,
+        "data_time_jst": "2025-08-18T14:23:34+0900"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.41,
+          34.705
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "pavilion_id": "pav_8ad1f51c",
+        "pavilion_name": "モザンビーク",
+        "wait_min": 10,
+        "staleness_min": 60,
+        "data_time_jst": "2025-08-18T14:23:34+0900"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.4,
+          34.7
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "pavilion_id": "pav_917011ef",
+        "pavilion_name": "PASONANATUREVERSE",
+        "wait_min": 20,
+        "staleness_min": 12,
+        "data_time_jst": "2025-08-18T14:23:34+0900"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.45,
+          34.725
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "pavilion_id": "pav_94040c19",
+        "pavilion_name": "オーストラリア",
+        "wait_min": 30,
+        "staleness_min": 30,
+        "data_time_jst": "2025-08-18T14:23:34+0900"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.41,
+          34.705
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "pavilion_id": "pav_944128d0",
+        "pavilion_name": "セルビア",
+        "wait_min": 100,
+        "staleness_min": 1,
+        "data_time_jst": "2025-08-18T14:23:34+0900"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.41,
+          34.705
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "pavilion_id": "pav_94feee04",
+        "pavilion_name": "コロンビア",
+        "wait_min": 20,
+        "staleness_min": 24,
+        "data_time_jst": "2025-08-18T14:23:34+0900"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.4,
+          34.7
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "pavilion_id": "pav_95f78f8a",
+        "pavilion_name": "飯田グループ×大阪公立大学共同出展館",
+        "wait_min": 40,
+        "staleness_min": 60,
+        "data_time_jst": "2025-08-18T14:23:34+0900"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.45,
+          34.725
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "pavilion_id": "pav_a750914f",
+        "pavilion_name": "コモンズ-F",
+        "wait_min": 70,
+        "staleness_min": 21,
+        "data_time_jst": "2025-08-18T14:23:34+0900"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.41,
+          34.705
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "pavilion_id": "pav_a9645978",
+        "pavilion_name": "マレーシア",
+        "wait_min": 40,
+        "staleness_min": 60,
+        "data_time_jst": "2025-08-18T14:23:34+0900"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.4,
+          34.7
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "pavilion_id": "pav_a99bf8d4",
+        "pavilion_name": "オランダ",
+        "wait_min": 120,
+        "staleness_min": 60,
+        "data_time_jst": "2025-08-18T14:23:34+0900"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.43,
+          34.715
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "pavilion_id": "pav_b2aa1625",
+        "pavilion_name": "コモンズ-A",
+        "wait_min": 10,
+        "staleness_min": 60,
+        "data_time_jst": "2025-08-18T14:23:34+0900"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.4,
+          34.7
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "pavilion_id": "pav_b35e6e4d",
+        "pavilion_name": "ブルガリア",
+        "wait_min": 60,
+        "staleness_min": 20,
+        "data_time_jst": "2025-08-18T14:23:34+0900"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.43,
+          34.715
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "pavilion_id": "pav_bd627619",
+        "pavilion_name": "TECHWORLD",
+        "wait_min": 90,
+        "staleness_min": 60,
+        "data_time_jst": "2025-08-18T14:23:34+0900"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.45,
+          34.725
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "pavilion_id": "pav_bf31da81",
+        "pavilion_name": "トルコ",
+        "wait_min": 20,
+        "staleness_min": 60,
+        "data_time_jst": "2025-08-18T14:23:34+0900"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.41,
+          34.705
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "pavilion_id": "pav_c16937ab",
+        "pavilion_name": "バングラデシュ",
+        "wait_min": 60,
+        "staleness_min": 8,
+        "data_time_jst": "2025-08-18T14:23:34+0900"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.41,
+          34.705
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "pavilion_id": "pav_c772737b",
+        "pavilion_name": "アラブ首長国連邦",
+        "wait_min": 10,
+        "staleness_min": 17,
+        "data_time_jst": "2025-08-18T14:23:34+0900"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.4,
+          34.7
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "pavilion_id": "pav_c82d1b09",
+        "pavilion_name": "EU",
+        "wait_min": 20,
+        "staleness_min": 60,
+        "data_time_jst": "2025-08-18T14:23:34+0900"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.43,
+          34.715
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "pavilion_id": "pav_ca24a60d",
+        "pavilion_name": "コモンズ-D",
+        "wait_min": 15,
+        "staleness_min": 60,
+        "data_time_jst": "2025-08-18T14:23:34+0900"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.43,
+          34.715
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "pavilion_id": "pav_d1d3ba6f",
+        "pavilion_name": "ウズベキスタン",
+        "wait_min": 120,
+        "staleness_min": 56,
+        "data_time_jst": "2025-08-18T14:23:34+0900"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.41,
+          34.705
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "pavilion_id": "pav_db3e55a1",
+        "pavilion_name": "モナコ",
+        "wait_min": 30,
+        "staleness_min": 24,
+        "data_time_jst": "2025-08-18T14:23:34+0900"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.41,
+          34.705
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "pavilion_id": "pav_dd0b187b",
+        "pavilion_name": "ルーマニア",
+        "wait_min": 150,
+        "staleness_min": 60,
+        "data_time_jst": "2025-08-18T14:23:34+0900"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.43,
+          34.715
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "pavilion_id": "pav_e97883ed",
+        "pavilion_name": "サウジアラビア",
+        "wait_min": 40,
+        "staleness_min": 20,
+        "data_time_jst": "2025-08-18T14:23:34+0900"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.41,
+          34.705
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "pavilion_id": "pav_ecc20f1b",
+        "pavilion_name": "カタール",
+        "wait_min": 10,
+        "staleness_min": 2,
+        "data_time_jst": "2025-08-18T14:23:34+0900"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.4,
+          34.7
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "pavilion_id": "pav_f043c656",
+        "pavilion_name": "イタリア",
+        "wait_min": 360,
+        "staleness_min": 60,
+        "data_time_jst": "2025-08-18T14:23:34+0900"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.43,
+          34.715
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "pavilion_id": "pav_f5f54874",
+        "pavilion_name": "エジプト",
+        "wait_min": 90,
+        "staleness_min": 9,
+        "data_time_jst": "2025-08-18T14:23:34+0900"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.41,
+          34.705
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "pavilion_id": "pav_fe46302a",
+        "pavilion_name": "日本館",
+        "wait_min": 10,
+        "staleness_min": 28,
+        "data_time_jst": "2025-08-18T14:23:34+0900"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.46,
+          34.73
+        ]
+      }
+    }
+  ],
+  "meta": {
+    "mode": "latest",
+    "fresh_within": null,
+    "generated_at": "2025-08-18T17:19:48+0900"
+  }
+}

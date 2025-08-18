@@ -11,4 +11,4 @@ services:
       - PYTHONUNBUFFERED=1
     tty: true     # シェルを有効にする
     stdin_open: true
-    # command: python -m dash_app.app
+    command: python -m dash_app.app

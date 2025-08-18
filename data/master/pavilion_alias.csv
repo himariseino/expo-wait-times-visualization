@@ -1,0 +1,203 @@
+alias,pavilion_id
+アメリカ,pav_us
+米国,pav_us
+USA,pav_us
+アラブ首長国連邦,pav_ae
+UAE,pav_ae
+オーストリア,pav_at
+Austria,pav_at
+カタール,pav_qa
+Qatar,pav_qa
+カナダ,pav_ca
+Canada,pav_ca
+クウェート,pav_kw
+Kuwait,pav_kw
+コロンビア,pav_co
+Colombia,pav_co
+スイス,pav_ch
+Switzerland,pav_ch
+チェコ,pav_cz
+Czech,pav_cz
+Czech Republic,pav_cz
+トルクメニスタン,pav_tm
+Turkmenistan,pav_tm
+バーレーン,pav_bh
+Bahrain,pav_bh
+フィリピン,pav_ph
+Philippines,pav_ph
+ブラジル,pav_br
+Brazil,pav_br
+フランス,pav_fr
+France,pav_fr
+ベトナム,pav_vn
+Vietnam,pav_vn
+ペルー,pav_pe
+Peru,pav_pe
+ポルトガル,pav_pt
+Portugal,pav_pt
+マルタ,pav_mt
+Malta,pav_mt
+マレーシア,pav_my
+Malaysia,pav_my
+モザンビーク,pav_mz
+Mozambique,pav_mz
+ヨルダン,pav_jo
+Jordan,pav_jo
+中国,pav_cn
+China,pav_cn
+アゼルバイジャン,pav_az
+Azerbaijan,pav_az
+インドネシア,pav_id
+Indonesia,pav_id
+インド,pav_in
+India,pav_in
+ウズベキスタン,pav_uz
+Uzbekistan,pav_uz
+エジプト,pav_eg
+Egypt,pav_eg
+オーストラリア,pav_au
+Australia,pav_au
+サウジアラビア,pav_sa
+Saudi Arabia,pav_sa
+スペイン,pav_es
+Spain,pav_es
+セネガル,pav_sn
+Senegal,pav_sn
+セルビア,pav_rs
+Serbia,pav_rs
+タイ,pav_th
+Thailand,pav_th
+チャド,pav_td
+Chad,pav_td
+ドイツ,pav_de
+Germany,pav_de
+トルコ,pav_tr
+Turkey,pav_tr
+ネパール,pav_np
+Nepal,pav_np
+バングラデシュ,pav_bd
+Bangladesh,pav_bd
+モナコ,pav_mc
+Monaco,pav_mc
+ルクセンブルク,pav_lu
+Luxembourg,pav_lu
+大韓民国（韓国）,pav_kr
+韓国,pav_kr
+South Korea,pav_kr
+Republic of Korea,pav_kr
+アイルランド,pav_ie
+Ireland,pav_ie
+シンガポール,pav_sg
+Singapore,pav_sg
+チュニジア,pav_tn
+Tunisia,pav_tn
+チリ,pav_cl
+Chile,pav_cl
+ハンガリー,pav_hu
+Hungary,pav_hu
+ブルガリア,pav_bg
+Bulgaria,pav_bg
+ベルギー,pav_be
+Belgium,pav_be
+ポーランド,pav_pl
+Poland,pav_pl
+ルーマニア,pav_ro
+Romania,pav_ro
+英国（イギリス）,pav_gb
+イギリス,pav_gb
+UK,pav_gb
+United Kingdom,pav_gb
+Britain,pav_gb
+EU,pav_eu
+欧州連合,pav_eu
+コモンズ-A,pav_commons_a
+コモンズA,pav_commons_a
+Commons-A,pav_commons_a
+ミャクミャクハウス,pav_myakumyaku
+Myakumyaku House,pav_myakumyaku
+ロボット＆モビリティステーション,pav_robot_mobility
+ロボット&モビリティステーション,pav_robot_mobility
+Robot and Mobility Station,pav_robot_mobility
+国際機関協同館,pav_international_org
+International Organizations Pavilion,pav_international_org
+国際赤十字・赤新月運動館,pav_redcross
+Red Cross & Red Crescent Pavilion,pav_redcross
+国連,pav_un
+UN,pav_un
+United Nations,pav_un
+北欧館,pav_nordic
+Nordic Pavilion,pav_nordic
+北欧,pav_nordic
+万博博物館,pav_expo_museum
+Expo Museum,pav_expo_museum
+コモンズ-B,pav_commons_b
+コモンズB,pav_commons_b
+Commons-B,pav_commons_b
+コモンズ-F,pav_commons_f
+コモンズF,pav_commons_f
+Commons-F,pav_commons_f
+夜の地球,pav_earthnight
+Night Earth,pav_earthnight
+BetterCo-Being,pav_bettercobeing
+DialogueTheater-いのちのあかし-,pav_dialogue_theater
+Dialogue Theater,pav_dialogue_theater
+いのちのあかし,pav_dialogue_theater
+EARTHMART,pav_earthmart
+null²,pav_null2
+null2,pav_null2
+いのちの未来,pav_future_life
+Future of Life,pav_future_life
+いのちの遊び場クラゲ館,pav_jellyfish
+Jellyfish Playground,pav_jellyfish
+いのちめぐる冒険,pav_adventure
+Adventure of Life,pav_adventure
+いのち動的平衡館,pav_dynamic
+Dynamic Equilibrium of Life,pav_dynamic
+コモンズ-C,pav_commons_c
+コモンズC,pav_commons_c
+Commons-C,pav_commons_c
+コモンズ-D,pav_commons_d
+コモンズD,pav_commons_d
+Commons-D,pav_commons_d
+コモンズ-E,pav_commons_e
+コモンズE,pav_commons_e
+Commons-E,pav_commons_e
+フューチャーライフヴィレッジ,pav_futurelifevillage
+Future Life Village,pav_futurelifevillage
+未来の都市,pav_futurecity
+Future City,pav_futurecity
+BLUEOCEANDOME,pav_blueoceandome
+GUNDAMNEXTFUTUREPAVILION,pav_gundam
+GUNDAM,pav_gundam
+ORA外食パビリオン「宴～UTAGE～」,pav_utage
+宴,pav_utage
+UTAGE,pav_utage
+PASONANATUREVERSE,pav_pasona
+Pasona Natureverse,pav_pasona
+TECHWORLD,pav_techworld
+ガスパビリオンおばけワンダーランド,pav_gaswonder
+Gas Pavilion Obake Wonderland,pav_gaswonder
+よしもとwaraiimyraii館,pav_yoshimoto
+Yoshimoto Waraiimyraii,pav_yoshimoto
+飯田グループ×大阪公立大学共同出展館,pav_iida
+Iida Group x Osaka Metropolitan University,pav_iida
+NTTPavilion,pav_ntt
+NTT Pavilion,pav_ntt
+ウーマンズパビリオンincollaborationwithCartier,pav_women
+ウーマンズパビリオン,pav_women
+Women's Pavilion (Cartier),pav_women
+パナソニックグループパビリオン「ノモの国」,pav_panasonic
+パナソニックグループパビリオン,pav_panasonic
+Panasonic Pavilion Nomo no Kuni,pav_panasonic
+関西パビリオン,pav_kansai
+Kansai Pavilion,pav_kansai
+三菱未来館,pav_mitsubishi
+Mitsubishi Miraikan,pav_mitsubishi
+住友館,pav_sumitomo
+Sumitomo Pavilion,pav_sumitomo
+大阪ヘルスケアパビリオン,pav_osaka_health
+Osaka Healthcare Pavilion,pav_osaka_health
+電力館可能性のタマゴたち,pav_denryoku
+Denryokukan,pav_denryoku
+日本館,pav_japan
+Japan Pavilion,pav_japan
