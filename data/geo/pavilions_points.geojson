@@ -1,0 +1,1535 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "pavilion_name": "アメリカ（米国）",
+        "area": "エンパワーリングゾーン",
+        "duration_minutes": 25.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.4,
+          34.7
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "pavilion_name": "アラブ首長国連邦",
+        "area": "エンパワーリングゾーン",
+        "duration_minutes": 15.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.4,
+          34.7
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "pavilion_name": "オーストリア",
+        "area": "エンパワーリングゾーン",
+        "duration_minutes": 30.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.4,
+          34.7
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "pavilion_name": "カタール",
+        "area": "エンパワーリングゾーン",
+        "duration_minutes": 25.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.4,
+          34.7
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "pavilion_name": "カナダ",
+        "area": "エンパワーリングゾーン",
+        "duration_minutes": 15.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.4,
+          34.7
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "pavilion_name": "クウェート",
+        "area": "エンパワーリングゾーン",
+        "duration_minutes": 30.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.4,
+          34.7
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "pavilion_name": "コモンズ-A",
+        "area": "エンパワーリングゾーン",
+        "duration_minutes": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.4,
+          34.7
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "pavilion_name": "コロンビア",
+        "area": "エンパワーリングゾーン",
+        "duration_minutes": 20.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.4,
+          34.7
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "pavilion_name": "スイス",
+        "area": "エンパワーリングゾーン",
+        "duration_minutes": 20.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.4,
+          34.7
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "pavilion_name": "チェコ",
+        "area": "エンパワーリングゾーン",
+        "duration_minutes": 30.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.4,
+          34.7
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "pavilion_name": "トルクメニスタン",
+        "area": "エンパワーリングゾーン",
+        "duration_minutes": 20.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.4,
+          34.7
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "pavilion_name": "バーレーン",
+        "area": "エンパワーリングゾーン",
+        "duration_minutes": 20.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.4,
+          34.7
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "pavilion_name": "フィリピン",
+        "area": "エンパワーリングゾーン",
+        "duration_minutes": 30.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.4,
+          34.7
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "pavilion_name": "ブラジル",
+        "area": "エンパワーリングゾーン",
+        "duration_minutes": 20.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.4,
+          34.7
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "pavilion_name": "フランス",
+        "area": "エンパワーリングゾーン",
+        "duration_minutes": 25.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.4,
+          34.7
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "pavilion_name": "ベトナム",
+        "area": "エンパワーリングゾーン",
+        "duration_minutes": 15.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.4,
+          34.7
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "pavilion_name": "ペルー",
+        "area": "エンパワーリングゾーン",
+        "duration_minutes": 15.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.4,
+          34.7
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "pavilion_name": "ポルトガル",
+        "area": "エンパワーリングゾーン",
+        "duration_minutes": 14.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.4,
+          34.7
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "pavilion_name": "マルタ",
+        "area": "エンパワーリングゾーン",
+        "duration_minutes": 20.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.4,
+          34.7
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "pavilion_name": "マレーシア",
+        "area": "エンパワーリングゾーン",
+        "duration_minutes": 19.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.4,
+          34.7
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "pavilion_name": "ミャクミャクハウス",
+        "area": "エンパワーリングゾーン",
+        "duration_minutes": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.4,
+          34.7
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "pavilion_name": "モザンビーク",
+        "area": "エンパワーリングゾーン",
+        "duration_minutes": 30.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.4,
+          34.7
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "pavilion_name": "ヨルダン",
+        "area": "エンパワーリングゾーン",
+        "duration_minutes": 10.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.4,
+          34.7
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "pavilion_name": "ロボット＆モビリティステーション",
+        "area": "エンパワーリングゾーン",
+        "duration_minutes": 30.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.4,
+          34.7
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "pavilion_name": "国際機関協同館",
+        "area": "エンパワーリングゾーン",
+        "duration_minutes": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.4,
+          34.7
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "pavilion_name": "国際赤十字・赤新月運動館",
+        "area": "エンパワーリングゾーン",
+        "duration_minutes": 30.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.4,
+          34.7
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "pavilion_name": "国連",
+        "area": "エンパワーリングゾーン",
+        "duration_minutes": 20.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.4,
+          34.7
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "pavilion_name": "中国",
+        "area": "エンパワーリングゾーン",
+        "duration_minutes": 30.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.4,
+          34.7
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "pavilion_name": "北欧館",
+        "area": "エンパワーリングゾーン",
+        "duration_minutes": 20.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.4,
+          34.7
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "pavilion_name": "万博博物館",
+        "area": "エンパワーリングゾーン",
+        "duration_minutes": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.4,
+          34.7
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "pavilion_name": "アゼルバイジャン",
+        "area": "コネクティングゾーン",
+        "duration_minutes": 20.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.41,
+          34.705
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "pavilion_name": "インドネシア",
+        "area": "コネクティングゾーン",
+        "duration_minutes": 30.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.41,
+          34.705
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "pavilion_name": "インド",
+        "area": "コネクティングゾーン",
+        "duration_minutes": 30.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.41,
+          34.705
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "pavilion_name": "ウズベキスタン",
+        "area": "コネクティングゾーン",
+        "duration_minutes": 20.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.41,
+          34.705
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "pavilion_name": "エジプト",
+        "area": "コネクティングゾーン",
+        "duration_minutes": 10.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.41,
+          34.705
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "pavilion_name": "オーストラリア",
+        "area": "コネクティングゾーン",
+        "duration_minutes": 15.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.41,
+          34.705
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "pavilion_name": "コモンズ-B",
+        "area": "コネクティングゾーン",
+        "duration_minutes": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.41,
+          34.705
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "pavilion_name": "コモンズ-F",
+        "area": "コネクティングゾーン",
+        "duration_minutes": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.41,
+          34.705
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "pavilion_name": "サウジアラビア",
+        "area": "コネクティングゾーン",
+        "duration_minutes": 25.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.41,
+          34.705
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "pavilion_name": "スペイン",
+        "area": "コネクティングゾーン",
+        "duration_minutes": 30.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.41,
+          34.705
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "pavilion_name": "セネガル",
+        "area": "コネクティングゾーン",
+        "duration_minutes": 20.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.41,
+          34.705
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "pavilion_name": "セルビア",
+        "area": "コネクティングゾーン",
+        "duration_minutes": 30.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.41,
+          34.705
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "pavilion_name": "タイ",
+        "area": "コネクティングゾーン",
+        "duration_minutes": 30.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.41,
+          34.705
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "pavilion_name": "チャド",
+        "area": "コネクティングゾーン",
+        "duration_minutes": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.41,
+          34.705
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "pavilion_name": "ドイツ",
+        "area": "コネクティングゾーン",
+        "duration_minutes": 40.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.41,
+          34.705
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "pavilion_name": "トルコ",
+        "area": "コネクティングゾーン",
+        "duration_minutes": 20.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.41,
+          34.705
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "pavilion_name": "ネパール",
+        "area": "コネクティングゾーン",
+        "duration_minutes": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.41,
+          34.705
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "pavilion_name": "バングラデシュ",
+        "area": "コネクティングゾーン",
+        "duration_minutes": 20.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.41,
+          34.705
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "pavilion_name": "モナコ",
+        "area": "コネクティングゾーン",
+        "duration_minutes": 60.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.41,
+          34.705
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "pavilion_name": "夜の地球",
+        "area": "コネクティングゾーン",
+        "duration_minutes": 20.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.41,
+          34.705
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "pavilion_name": "ルクセンブルク",
+        "area": "コネクティングゾーン",
+        "duration_minutes": 30.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.41,
+          34.705
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "pavilion_name": "大韓民国（韓国）",
+        "area": "コネクティングゾーン",
+        "duration_minutes": 20.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.41,
+          34.705
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "pavilion_name": "BetterCo-Being",
+        "area": "シグネチャーゾーン",
+        "duration_minutes": 45.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.42,
+          34.71
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "pavilion_name": "DialogueTheater-いのちのあかし-",
+        "area": "シグネチャーゾーン",
+        "duration_minutes": 55.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.42,
+          34.71
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "pavilion_name": "EARTHMART",
+        "area": "シグネチャーゾーン",
+        "duration_minutes": 40.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.42,
+          34.71
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "pavilion_name": "null²",
+        "area": "シグネチャーゾーン",
+        "duration_minutes": 30.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.42,
+          34.71
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "pavilion_name": "いのちの未来",
+        "area": "シグネチャーゾーン",
+        "duration_minutes": 60.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.42,
+          34.71
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "pavilion_name": "いのちの遊び場クラゲ館",
+        "area": "シグネチャーゾーン",
+        "duration_minutes": 37.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.42,
+          34.71
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "pavilion_name": "いのちめぐる冒険",
+        "area": "シグネチャーゾーン",
+        "duration_minutes": 50.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.42,
+          34.71
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "pavilion_name": "いのち動的平衡館",
+        "area": "シグネチャーゾーン",
+        "duration_minutes": 15.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.42,
+          34.71
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "pavilion_name": "EU",
+        "area": "セービングゾーン",
+        "duration_minutes": 15.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.43,
+          34.715
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "pavilion_name": "アルジェリア",
+        "area": "セービングゾーン",
+        "duration_minutes": 20.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.43,
+          34.715
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "pavilion_name": "アンゴラ",
+        "area": "セービングゾーン",
+        "duration_minutes": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.43,
+          34.715
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "pavilion_name": "イタリア",
+        "area": "セービングゾーン",
+        "duration_minutes": 30.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.43,
+          34.715
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "pavilion_name": "オマーン",
+        "area": "セービングゾーン",
+        "duration_minutes": 15.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.43,
+          34.715
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "pavilion_name": "オランダ",
+        "area": "セービングゾーン",
+        "duration_minutes": 25.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.43,
+          34.715
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "pavilion_name": "カンボジア",
+        "area": "セービングゾーン",
+        "duration_minutes": 15.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.43,
+          34.715
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "pavilion_name": "コモンズ-C",
+        "area": "セービングゾーン",
+        "duration_minutes": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.43,
+          34.715
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "pavilion_name": "コモンズ-D",
+        "area": "セービングゾーン",
+        "duration_minutes": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.43,
+          34.715
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "pavilion_name": "コモンズ-E",
+        "area": "セービングゾーン",
+        "duration_minutes": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.43,
+          34.715
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "pavilion_name": "シンガポール",
+        "area": "セービングゾーン",
+        "duration_minutes": 20.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.43,
+          34.715
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "pavilion_name": "チュニジア",
+        "area": "セービングゾーン",
+        "duration_minutes": 30.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.43,
+          34.715
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "pavilion_name": "チリ",
+        "area": "セービングゾーン",
+        "duration_minutes": 15.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.43,
+          34.715
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "pavilion_name": "バルト",
+        "area": "セービングゾーン",
+        "duration_minutes": 20.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.43,
+          34.715
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "pavilion_name": "ハンガリー",
+        "area": "セービングゾーン",
+        "duration_minutes": 15.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.43,
+          34.715
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "pavilion_name": "ブルガリア",
+        "area": "セービングゾーン",
+        "duration_minutes": 20.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.43,
+          34.715
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "pavilion_name": "ベルギー",
+        "area": "セービングゾーン",
+        "duration_minutes": 25.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.43,
+          34.715
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "pavilion_name": "ポーランド",
+        "area": "セービングゾーン",
+        "duration_minutes": 40.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.43,
+          34.715
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "pavilion_name": "ルーマニア",
+        "area": "セービングゾーン",
+        "duration_minutes": 30.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.43,
+          34.715
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "pavilion_name": "英国（イギリス）",
+        "area": "セービングゾーン",
+        "duration_minutes": 20.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.43,
+          34.715
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "pavilion_name": "フューチャーライフヴィレッジ",
+        "area": "フューチャーライフゾーン",
+        "duration_minutes": 30.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.44,
+          34.72
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "pavilion_name": "未来の都市",
+        "area": "フューチャーライフゾーン",
+        "duration_minutes": 35.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.44,
+          34.72
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "pavilion_name": "BLUEOCEANDOME",
+        "area": "西ゲートゾーン",
+        "duration_minutes": 30.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.45,
+          34.725
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "pavilion_name": "GUNDAMNEXTFUTUREPAVILION",
+        "area": "西ゲートゾーン",
+        "duration_minutes": 50.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.45,
+          34.725
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "pavilion_name": "ORA外食パビリオン「宴～UTAGE～」",
+        "area": "西ゲートゾーン",
+        "duration_minutes": 20.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.45,
+          34.725
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "pavilion_name": "PASONANATUREVERSE",
+        "area": "西ゲートゾーン",
+        "duration_minutes": 30.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.45,
+          34.725
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "pavilion_name": "TECHWORLD",
+        "area": "西ゲートゾーン",
+        "duration_minutes": 30.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.45,
+          34.725
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "pavilion_name": "ガスパビリオンおばけワンダーランド",
+        "area": "西ゲートゾーン",
+        "duration_minutes": 40.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.45,
+          34.725
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "pavilion_name": "よしもとwaraiimyraii館",
+        "area": "西ゲートゾーン",
+        "duration_minutes": 30.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.45,
+          34.725
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "pavilion_name": "飯田グループ×大阪公立大学共同出展館",
+        "area": "西ゲートゾーン",
+        "duration_minutes": 45.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.45,
+          34.725
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "pavilion_name": "NTTPavilion",
+        "area": "東ゲートゾーン",
+        "duration_minutes": 30.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.46,
+          34.73
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "pavilion_name": "ウーマンズパビリオンincollaborationwithCartier",
+        "area": "東ゲートゾーン",
+        "duration_minutes": 30.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.46,
+          34.73
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "pavilion_name": "パナソニックグループパビリオン「ノモの国」",
+        "area": "東ゲートゾーン",
+        "duration_minutes": 60.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.46,
+          34.73
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "pavilion_name": "関西パビリオン",
+        "area": "東ゲートゾーン",
+        "duration_minutes": 60.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.46,
+          34.73
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "pavilion_name": "三菱未来館",
+        "area": "東ゲートゾーン",
+        "duration_minutes": 60.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.46,
+          34.73
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "pavilion_name": "住友館",
+        "area": "東ゲートゾーン",
+        "duration_minutes": 65.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.46,
+          34.73
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "pavilion_name": "大阪ヘルスケアパビリオン",
+        "area": "東ゲートゾーン",
+        "duration_minutes": 60.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.46,
+          34.73
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "pavilion_name": "電力館可能性のタマゴたち",
+        "area": "東ゲートゾーン",
+        "duration_minutes": 45.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.46,
+          34.73
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "pavilion_name": "日本館",
+        "area": "東ゲートゾーン",
+        "duration_minutes": 40.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.46,
+          34.73
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "pavilion_name": "アイルランド",
+        "area": "エンパワーリングゾーン",
+        "duration_minutes": 30.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.4,
+          34.7
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "pavilion_name": "アセアン",
+        "area": "エンパワーリングゾーン",
+        "duration_minutes": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.4,
+          34.7
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "pavilion_name": "アイルランド",
+        "area": "エンパワーリングゾーン",
+        "duration_minutes": 30.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.4,
+          34.7
+        ]
+      }
+    }
+  ]
+}
