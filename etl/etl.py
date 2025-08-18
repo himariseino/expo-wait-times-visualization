@@ -166,10 +166,13 @@ CREATE TABLE IF NOT EXISTS waits_fact (
   weekday TEXT,
   hour_range TEXT,
   data_time_jst TEXT,
+  day TEXT,     -- 追加
+  hour TEXT,    -- 追加
   PRIMARY KEY (timestamp, pavilion_id),
   FOREIGN KEY (pavilion_id) REFERENCES pavilion_dim(pavilion_id)
 );
 """
+
 
 UNRESOLVED_DDL = """
 CREATE TABLE IF NOT EXISTS unresolved_names (
@@ -200,7 +203,10 @@ def upsert_waits_fact(conn: sqlite3.Connection, df: pd.DataFrame):
         "weekday": "weekday",
         "hour_range": "hour_range",
         "data_time_jst": "data_time_jst",
+        "day": "day",     # 追加
+        "hour": "hour",   # 追加
     }
+
     need_cols = list(cols_map.keys())
     for c in need_cols:
         if c not in df.columns:
@@ -212,9 +218,9 @@ def upsert_waits_fact(conn: sqlite3.Connection, df: pd.DataFrame):
     conn.execute("""
         INSERT OR IGNORE INTO waits_fact
         (timestamp, pavilion_id, pavilion_name_raw, wait_time_raw, post_time_raw,
-         wait_min, staleness_min, weekday, hour_range, data_time_jst)
+        wait_min, staleness_min, weekday, hour_range, data_time_jst, day, hour)   -- 追加
         SELECT timestamp, pavilion_id, pavilion_name_raw, wait_time_raw, post_time_raw,
-               wait_min, staleness_min, weekday, hour_range, data_time_jst
+            wait_min, staleness_min, weekday, hour_range, data_time_jst, day, hour -- 追加
         FROM _tmp_waits_fact;
     """)
     conn.execute("DROP TABLE _tmp_waits_fact;")
@@ -222,10 +228,24 @@ def upsert_waits_fact(conn: sqlite3.Connection, df: pd.DataFrame):
 def insert_unresolved(conn: sqlite3.Connection, df_unresolved: pd.DataFrame):
     if df_unresolved.empty:
         return
-    df_unresolved = df_unresolved.rename(columns={
-        "pavilion_name": "pavilion_name_raw"
-    })[["timestamp", "pavilion_name_raw", "wait_time_raw", "post_time_raw"]]
-    df_unresolved.to_sql("unresolved_names", conn, if_exists="append", index=False)
+
+    # 必要列・重複・欠損を整理
+    df_tmp = (df_unresolved.rename(columns={"pavilion_name": "pavilion_name_raw"})
+              [["timestamp", "pavilion_name_raw", "wait_time_raw", "post_time_raw"]]
+              .dropna(subset=["timestamp", "pavilion_name_raw"])
+              .drop_duplicates(subset=["timestamp", "pavilion_name_raw"])
+             )
+
+    # pandas→一時表→INSERT OR IGNORE で本表へ
+    df_tmp.to_sql("_tmp_unresolved", conn, if_exists="replace", index=False)
+    conn.execute("""
+        INSERT OR IGNORE INTO unresolved_names
+        (timestamp, pavilion_name_raw, wait_time_raw, post_time_raw)
+        SELECT timestamp, pavilion_name_raw, wait_time_raw, post_time_raw
+          FROM _tmp_unresolved;
+    """)
+    conn.execute("DROP TABLE _tmp_unresolved;")
+
 
 # ----------------------------------
 # メイン処理
@@ -249,6 +269,8 @@ def main():
     # 4) 名寄せ（pavilion_name → pavilion_id）
     alias_map = load_alias_map_from_db(DB_PATH)
     raw_df["pavilion_id"] = raw_df["pavilion_name"].apply(lambda n: resolve_pavilion_id(n, alias_map))
+    raw_df["day"]  = raw_df["data_time_jst"].str.slice(0, 10)
+    raw_df["hour"] = raw_df["hour_range"]
 
     unresolved = raw_df[raw_df["pavilion_id"].isna()][["timestamp", "pavilion_name", "wait_time_raw", "post_time_raw"]]
     resolved = raw_df[raw_df["pavilion_id"].notna()].copy()
