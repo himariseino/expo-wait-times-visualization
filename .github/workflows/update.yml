@@ -43,7 +43,7 @@ jobs:
         run: python scripts/fetch_data.py
 
       - name: Run ETL pipeline
-        run: python etl/etl.py
+        run: python -m etl.etl
 
       - name: Commit & push CSV and DB files
         run: |
