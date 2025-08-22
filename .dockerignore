@@ -1,4 +1,8 @@
+.git
+.venv
 __pycache__/
 *.pyc
-.venv/
-.env
+data/db/*
+!data/db/.keep
+data/out/*
+!data/out/.keep

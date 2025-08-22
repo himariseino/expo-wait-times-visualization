@@ -8,6 +8,7 @@ from datetime import datetime
 import yaml
 from pathlib import Path
 from typing import Optional
+from scripts.prepare_pavilion_master import main as prepare_pavilion_master
 
 # ----------------------------------
 # ログ設定
@@ -254,6 +255,9 @@ def main():
     logger.info("ETL処理を開始します")
     logger.info(f"RAW_CSV_PATH: {RAW_CSV_PATH}")
     logger.info(f"DB_PATH: {DB_PATH}")
+
+    # ★ ここで pavilion_dim / pavilion_alias / pavilion_geometry を初期化しておく
+    prepare_pavilion_master()
 
     # 1) Raw 読み込み
     raw_df = load_raw_data(RAW_CSV_PATH)
