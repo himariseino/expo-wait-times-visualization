@@ -1,42 +1,35 @@
-"""
-基本的な構成、layout.py、callbacks.pyとの連携、SQLiteデータベースからの読み込み、サーバー実行
-"""
-
+# dash_app/app.py
+import os
 import dash
 import dash_bootstrap_components as dbc
-import sqlite3
-import pandas as pd
+from flask_caching import Cache
 from pathlib import Path
 
-# レイアウトとコールバック関数をインポート
 from dash_app.layout import create_layout
 from dash_app.callbacks import register_callbacks
 
-# データベースのパス設定（プロジェクトルートからの相対パス）
-DB_PATH = Path(__file__).resolve().parents[1] / "data/db/wait_times.db"
-TABLE_NAME = "wait_times"
+# 環境変数（docker run -e で上書き可）
+DB_PATH = os.getenv("DB_PATH", str(Path(__file__).resolve().parents[1] / "data/db/wait_times.db"))
+MAP_JSON = os.getenv("MAP_JSON", str(Path(__file__).resolve().parents[1] / "data/out/map_latest.json"))
+PORT = int(os.getenv("PORT", "8050"))
 
-def load_data() -> pd.DataFrame:
-    """SQLiteからデータを読み込む"""
-    with sqlite3.connect(DB_PATH) as conn:
-        df = pd.read_sql(f"SELECT * FROM {TABLE_NAME}", conn)
-    return df
-
-# Dashアプリケーションの初期化
+# Dash アプリ初期化
 app = dash.Dash(
     __name__,
     external_stylesheets=[dbc.themes.BOOTSTRAP],
     suppress_callback_exceptions=True,
-    title="万博待ち時間ダッシュボード"
+    title="万博待ち時間ダッシュボード",
 )
+server = app.server
 
-# データ読み込みとレイアウト適用
-df = load_data()
-app.layout = create_layout(df)
+# シンプルキャッシュ（60秒）
+cache = Cache(app.server, config={"CACHE_TYPE": "SimpleCache", "CACHE_DEFAULT_TIMEOUT": 60})
 
-# コールバック登録
-register_callbacks(app, df)
+# レイアウト（DFは渡さない前提）
+app.layout = create_layout()
 
-# サーバー起動
+# コールバック登録（新シグネチャ）
+register_callbacks(app, DB_PATH, MAP_JSON, cache)
+
 if __name__ == "__main__":
-    app.run(debug=True, host="0.0.0.0", port=8050, use_reloader=True)
+    app.run(debug=True, host="0.0.0.0", port=PORT, use_reloader=True)

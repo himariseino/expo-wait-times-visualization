@@ -1,46 +1,72 @@
+# dash_app/layout.py
 from dash import html, dcc, dash_table
-import pandas as pd
+import dash_bootstrap_components as dbc
+import dash_leaflet as dl
 
+def create_layout():
+    return html.Div(
+        [
+            html.H1("関西大阪万博 パビリオン待ち時間ダッシュボード"),
 
-def create_layout(df: pd.DataFrame):
-    # パビリオン名一覧（ユニーク・ソート）
-    pavilion_options = sorted(df['pavilion_name'].dropna().unique())
-    pavilion_dropdown_options = [{"label": name, "value": name} for name in pavilion_options]
-
-    return html.Div([
-        html.H1("パビリオン待ち時間 詳細分析", style={"textAlign": "center"}),
-
-        # --- 操作パネル ---
-        html.Div([
-            html.Label("パビリオンを選択", style={"fontWeight": "bold"}),
-            dcc.Dropdown(
-                id="pavilion-selector",
-                options=pavilion_dropdown_options,
-                multi=True,
-                placeholder="パビリオンを選択（複数可）"
-            ),
-            html.Br(),
-
-            html.Label("集計期間を選択", style={"fontWeight": "bold"}),
-            dcc.RadioItems(
-                id="aggregation-range",
-                options=[
-                    {"label": "全期間", "value": "all"},
-                    {"label": "直近1ヶ月", "value": "1month"},
-                    {"label": "直近7日間", "value": "7days"},
-                    {"label": "曜日別平均", "value": "weekday"},
+            # KPI（3枚）
+            dbc.Row(
+                [
+                    dbc.Col(dbc.Card(dbc.CardBody([html.Div("全体平均待ち時間（分）"), html.H2(id="card-avg")])), md=4),
+                    dbc.Col(dbc.Card(dbc.CardBody([html.Div("曜日別偏差（分）"),   html.H2(id="card-weekday5p")])), md=4),
+                    dbc.Col(dbc.Card(dbc.CardBody([html.Div("時間帯別偏差（分）"), html.H2(id="card-hour5p")])), md=4),
                 ],
-                value="all",
-                labelStyle={"display": "inline-block", "margin-right": "15px"}
+                className="mb-3",
             ),
-        ], style={"marginBottom": "30px"}),
 
-        # --- 全体傾向グラフ ---
-        html.Div([
-            html.H2("平均待ち時間ランキング"),
-            dcc.Graph(id="avg-wait-bar"),
+            # 操作（集計期間・パビリオン選択）
+            dbc.Row(
+                [
+                    dbc.Col(
+                        dcc.Dropdown(
+                            id="dd-range",
+                            options=[
+                                {"label": "直近7日", "value": "7d"},
+                                {"label": "直近30日", "value": "30d"},
+                                {"label": "全期間", "value": "all"},
+                            ],
+                            value="7d",
+                            clearable=False,
+                        ),
+                        md=3,
+                    ),
+                    dbc.Col(
+                        dcc.Dropdown(
+                            id="dd-pavilion",
+                            options=[],   # 初期は空。callbacksで埋める
+                            multi=True,
+                            placeholder="パビリオンを選択（複数可）",
+                        ),
+                        md=9,
+                    ),
+                ],
+                className="mb-4",
+            ),
 
-            html.H2("最新の待ち時間（投稿順）"),
+            # グラフ群（ランキング / 曜日×時間帯ヒートマップ）
+            dbc.Row(
+                [
+                    dbc.Col(dcc.Graph(id="fig-ranking"), md=6),
+                    dbc.Col(dcc.Graph(id="fig-weekday-heat"), md=6),
+                ],
+                className="mb-4",
+            ),
+
+            # グラフ群（時系列 / 曜日別棒）
+            dbc.Row(
+                [
+                    dbc.Col(dcc.Graph(id="fig-timeseries"), md=6),
+                    dbc.Col(dcc.Graph(id="fig-weekday-bar"), md=6),
+                ],
+                className="mb-4",
+            ),
+
+            # 最新一覧テーブル
+            html.H3("最新の待ち時間（投稿順）"),
             dash_table.DataTable(
                 id="latest-wait-table",
                 columns=[
@@ -48,20 +74,26 @@ def create_layout(df: pd.DataFrame):
                     {"name": "待ち時間（分）", "id": "wait_time_minutes"},
                     {"name": "投稿時刻", "id": "timestamp"},
                 ],
-                style_table={"overflowX": "auto"},
                 page_size=10,
+                style_table={"overflowX": "auto"},
             ),
-        ], style={"marginBottom": "50px"}),
+            html.Hr(),
 
-        # --- 詳細分析グラフ ---
-        html.Div([
-            html.H2("選択パビリオンの時間推移"),
-            dcc.Graph(id="wait-time-line"),
+            # 混雑マップ（最下部）
+            html.H3("混雑マップ"),
+            dl.Map(
+                id="congestion-map",
+                center=[34.70, 135.42],  # 仮中心
+                zoom=14,
+                style={"height": "420px", "width": "100%"},
+                children=[
+                    dl.TileLayer(url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"),
+                    dl.GeoJSON(id="map-geojson"),
+                ],
+            ),
+            dcc.Interval(id="ivl-latest", interval=60_000, n_intervals=0),
 
-            html.H2("曜日 × 時間帯ヒートマップ"),
-            dcc.Graph(id="wait-heatmap"),
-        ]),
-
-        # --- 最終更新情報 ---
-        html.Div(id="last-updated-text", style={"textAlign": "right", "marginTop": "20px"}),
-    ], style={"padding": "40px"})
+            html.Div(id="last-updated-text", style={"textAlign": "right", "marginTop": "10px"}),
+        ],
+        style={"padding": "20px"},
+    )

@@ -1,17 +1,24 @@
-FROM python:3.11-slim
-
+# Dockerfile
+# ベースに uv (+ Python3.11, bookworm) を使用
+FROM ghcr.io/astral-sh/uv:python3.11-bookworm AS base
 WORKDIR /app
 
-COPY pyproject.toml poetry.lock* ./
-RUN pip install uv \
-    && uv pip install --system --requirements pyproject.toml
+# タイムゾーン等（必要に応じて）
+ENV TZ=Asia/Tokyo \
+    DB_PATH=/app/data/db/wait_times.db \
+    MAP_JSON=/app/data/out/map_latest.json \
+    PORT=8050
 
-ENV PYTHONPATH=/app
+# 依存のみ先にコピーしてロック・インストール（レイヤーキャッシュ最適化）
+COPY pyproject.toml uv.lock* ./
+RUN uv sync --frozen --no-dev
 
+# アプリ本体
 COPY . .
 
-EXPOSE 8050
+# uv が作った .venv を PATH に追加
+ENV PATH="/app/.venv/bin:${PATH}"
 
-# ENTRYPOINTを空にすることでCMDが素直に実行されるようにする
-# ENTRYPOINT []
-# CMD ["python", "dash_app/app.py"]
+EXPOSE 8050
+WORKDIR /app
+CMD ["python", "-m", "dash_app.app"]
