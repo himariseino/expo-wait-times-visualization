@@ -1,5 +1,4 @@
-version: "3.9"
-
+# version キーは削除（警告回避）
 services:
   app:
     build: .
@@ -9,6 +8,7 @@ services:
       - "8050:8050"
     environment:
       - PYTHONUNBUFFERED=1
-    tty: true     # シェルを有効にする
+    tty: true
     stdin_open: true
-    command: python -m dash_app.app
+    # Dockerfile の CMD を使うので command は消すか、使うなら絶対パスで
+    # command: /opt/venv/bin/python -m dash_app.app

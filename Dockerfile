@@ -1,24 +1,25 @@
-# Dockerfile
-# ベースに uv (+ Python3.11, bookworm) を使用
-FROM ghcr.io/astral-sh/uv:python3.11-bookworm AS base
-WORKDIR /app
+# ---- 1. Installing uv -------------------------------------
+FROM python:3.12-slim-trixie
+COPY --from=ghcr.io/astral-sh/uv:latest /uv /uvx /bin/
 
-# タイムゾーン等（必要に応じて）
-ENV TZ=Asia/Tokyo \
+# ---- 2. Installing a project ------------------------------
+# Copy the project into the image
+ADD . /app
+
+# Sync the project into a new environment, asserting the lockfile is up to date
+WORKDIR /app
+ADD pyproject.toml uv.lock ./
+RUN uv sync --locked
+
+# ---- 3. Runtime env ---------------------------------------
+ENV PATH="/app/.venv/bin:$PATH" \
+    TZ=Asia/Tokyo \
     DB_PATH=/app/data/db/wait_times.db \
     MAP_JSON=/app/data/out/map_latest.json \
-    PORT=8050
-
-# 依存のみ先にコピーしてロック・インストール（レイヤーキャッシュ最適化）
-COPY pyproject.toml uv.lock* ./
-RUN uv sync --frozen --no-dev
-
-# アプリ本体
-COPY . .
-
-# uv が作った .venv を PATH に追加
-ENV PATH="/app/.venv/bin:${PATH}"
+    PORT=8050 \
+    PYTHONUNBUFFERED=1
 
 EXPOSE 8050
-WORKDIR /app
-CMD ["python", "-m", "dash_app.app"]
+
+# ✅ ここが本質修正（モジュール実行にする）
+CMD ["uv", "run", "python", "-m", "dash_app.app"]
