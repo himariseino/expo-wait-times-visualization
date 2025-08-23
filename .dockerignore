@@ -2,7 +2,3 @@
 .venv
 __pycache__/
 *.pyc
-data/db/*
-!data/db/.keep
-data/out/*
-!data/out/.keep
